@@ -1,0 +1,32 @@
+/*===========GLOBAL==========*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: grid;
+  grid-template-areas: "logo navigation";
+  
+}
+
+.logo{
+  grid-area: logo;
+}
+
+.navigation{
+  grid-area: navigation;
+  display: grid;
+  grid-template-areas: "nav icons";
+}
+
+.nav{
+  grid-area: nav;
+  
+}
+
+.icons-header{
+  grid-area: icons;
+  display: flex;
+  gap: 15px;
+}
