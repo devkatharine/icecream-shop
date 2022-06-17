@@ -4,9 +4,36 @@
   margin: 0;
 }
 
+body{
+  font-size: 15px;
+  background-color: #fcc300;
+}
+
+main{
+  background-color: white;
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 12px;
+ 
+  
+}
+
+a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  
+}
+
 header{
   display: grid;
   grid-template-areas: "logo navigation";
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  justify-self: center;
+
+  
   
 }
 
@@ -18,11 +45,19 @@ header{
   grid-area: navigation;
   display: grid;
   grid-template-areas: "nav icons";
+  color: black;
+  gap: 50px;
+  
 }
 
 .nav{
   grid-area: nav;
   
+  
+}
+
+li{
+  display: inline;
 }
 
 .icons-header{
