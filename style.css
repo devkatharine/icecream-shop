@@ -7,19 +7,20 @@
 body{
   font-size: 15px;
   background-image: url(images/ice-cream-background.jpg);
-  
+  background-repeat: repeat-x;
+  background-color: rgb(245, 245, 110);
   font-family: 'Roboto', sans-serif;
 }
 
-main{
-  background-color: white;
-  width: 70%;
-  margin: 100px auto;
-  
-}
+
 
 h1{
   color: rgb(243, 59, 89);
+
+}
+
+p{
+  font-size: 18px;
 }
 
 
@@ -28,6 +29,23 @@ a{
   list-style: none;
   color: black;
   font-size: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  
+}
+
+a:hover{
+  color: rgb(253, 253, 22);
+  background-color: pink;
+  border-radius: 20px;
+  border: 5px solid yellow;
+}
+
+
+main{
+  background-color: rgb(247, 245, 224);
+  width: 70%;
+  margin: 100px auto;
   
 }
 
@@ -41,14 +59,17 @@ header{
   padding: 50px;
   margin: auto;
 
-  
-  
 }
+
+
 
 .logo{
   grid-area: logo;
   display: flex;
+  font-family: 'Fascinate', cursive;
 }
+
+
 
 .navigation{
   grid-area: navigation;
@@ -75,4 +96,41 @@ li{
   grid-area: icons;
   display: flex;
   gap: 15px;
+}
+
+.content{
+  display: flex;
+  padding: 50px;
+  text-align: center;
+}
+
+.img-content{
+  
+  width: 70%;
+  margin: 40px;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  margin: 50px;
+}
+
+button{
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: pink;
+  border: 1px;
+  font-size: 17px;
+  font-weight: bolder;
+  
+  
+}
+
+button:hover{
+  background-color: pink;
+  border: 5px solid yellow;
+  color: yellow;
+
 }
