@@ -34,7 +34,7 @@ a{
   
 }
 
-a:hover{
+.link-nav:hover{
   color: rgb(253, 253, 22);
   background-color: pink;
   border-radius: 20px;
