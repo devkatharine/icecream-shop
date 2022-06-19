@@ -41,11 +41,13 @@ a{
   border: 5px solid yellow;
 }
 
+/*===========MAIN==========*/
 
 main{
   background-color: rgb(247, 245, 224);
   width: 70%;
   margin: 100px auto;
+  border-radius: 50px;
   
 }
 
@@ -133,4 +135,16 @@ button:hover{
   border: 5px solid yellow;
   color: yellow;
 
+}
+
+/*===========FOOTER==========*/
+
+footer{
+  background-color:  rgb(247, 245, 224);
+  display: grid;
+  grid-template-areas: "img1 img2 img3";
+  width: 70%;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 50px;
 }
