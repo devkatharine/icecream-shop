@@ -1,4 +1,5 @@
 /*===========GLOBAL==========*/
+
 *{
   padding: 0;
   margin: 0;
@@ -140,11 +141,31 @@ button:hover{
 /*===========FOOTER==========*/
 
 footer{
-  background-color:  rgb(247, 245, 224);
+  
   display: grid;
   grid-template-areas: "img1 img2 img3";
   width: 70%;
   margin: 40px auto;
   text-align: center;
+  border-radius: 50px;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 30px;
+}
+
+.img-information1{
+  grid-area: img1;
+  background-color: rgb(247, 245, 224);
+  border-radius: 50px;
+}
+
+.img-information2{
+  grid-area: img2;
+  background-color: rgb(247, 245, 224);
+  border-radius: 50px;
+}
+
+.img-information3{
+  grid-area: img3;
+  background-color: rgb(247, 245, 224);
   border-radius: 50px;
 }
