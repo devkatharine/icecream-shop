@@ -160,12 +160,16 @@ footer{
 
 .img-information2{
   grid-area: img2;
-  background-color: rgb(247, 245, 224);
+  
   border-radius: 50px;
 }
 
 .img-information3{
   grid-area: img3;
   background-color: rgb(247, 245, 224);
+  border-radius: 50px;
+}
+
+.img-info{
   border-radius: 50px;
 }
