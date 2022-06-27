@@ -188,3 +188,9 @@ footer{
     
   }
 }
+
+@media (max-width:2015px){
+  footer{
+    display: block;
+  }
+}
