@@ -154,8 +154,8 @@ footer{
 
 .img-information1{
   grid-area: img1;
-  background-color: rgb(247, 245, 224);
   border-radius: 50px;
+  padding: 30px;
 }
 
 .img-information2{
@@ -166,10 +166,25 @@ footer{
 
 .img-information3{
   grid-area: img3;
-  background-color: rgb(247, 245, 224);
+  
   border-radius: 50px;
+  padding: 30px;
 }
 
 .img-info{
   border-radius: 50px;
+}
+
+/*===========RESPONSIVENES==========*/
+
+@media (max-width:1420px){
+  header{
+    display: grid;
+  grid-template-areas: "logo" "navigation";
+  }
+
+  .content{
+    display: block;
+    
+  }
 }
