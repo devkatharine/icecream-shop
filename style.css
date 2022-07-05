@@ -101,6 +101,10 @@ li{
   gap: 15px;
 }
 
+.menu{
+  display: none;
+}
+
 .content{
   display: flex;
   padding: 50px;
@@ -180,13 +184,27 @@ footer{
 @media (max-width:1420px){
   header{
     display: grid;
-  grid-template-areas: "logo" "navigation";
+  grid-template-areas: "logo, menu" ;
   }
 
   .content{
     display: block;
     
   }
+  .nav{
+    display: none;
+  }
+
+  .icons-header{
+    display: none;
+  }
+
+  .menu{
+    display: inline;
+   
+  }
+
+  
 }
 
 @media (max-width:2015px){
