@@ -218,3 +218,34 @@ footer{
     display: block;
   }
 }
+
+@media (max-width: 575.98px){
+  header{
+    display: grid;
+  grid-template-areas: "logo, menu" ;
+  }
+
+  .content{
+    display: block;
+    
+  }
+  .nav{
+    display: none;
+  }
+
+  .icons-header{
+    display: none;
+  }
+
+  .menu{
+    display: inline;
+   
+  }
+
+  body{
+    background-color: rgb(247, 245, 224);
+    background-image: none;
+
+  }
+
+}
